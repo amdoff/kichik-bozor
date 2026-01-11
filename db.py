@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect("marketplace.db")
+conn = sqlite3.connect("kichik-bozor.db")
 cursor = conn.cursor()
 
 cursor.execute("""
